@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tvBakeryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvBakeryTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tvBakeryAddress"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="3dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvBakeryAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvBakeryTitle"
+        android:layout_below="@+id/tvBakeryTitle"
+        android:text="TextView"
+        android:textSize="14sp" />
+</RelativeLayout>
